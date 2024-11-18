@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:padding="24dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+    <com.google.android.material.textfield.TextInputEditText
+        android:hint="Enter Name"
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+
+
+    <!-- Phone Input -->
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"/>
+
+    <!-- User ID Input -->
+    <EditText
+        android:id="@+id/userIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User ID"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"/>
+
+    <!-- Date Picker -->
+    <Button
+        android:id="@+id/dateButton"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/purple"
+        android:textSize="18sp"
+        android:text="Choose Date"
+        android:layout_marginTop="16dp" />
+
+    <!-- Time Picker -->
+    <Button
+        android:id="@+id/timeButton"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/purple"
+        android:textSize="18sp"
+        android:text="Choose Time"
+        android:layout_marginTop="8dp" />
+
+    <!-- Reserve Button -->
+    <Button
+        android:id="@+id/reserveButton"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/purple"
+        android:textSize="18sp"
+        android:text="Reserve Appointment"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
+</LinearLayout>
